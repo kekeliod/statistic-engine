@@ -1,0 +1,22 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.db
+backend/uploads/
+*.pyc
+
+# Env
+.env
+backend/.env
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# local tunnel binary (downloaded by share.ps1)
+cloudflared.exe
